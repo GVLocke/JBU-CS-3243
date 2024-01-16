@@ -10,17 +10,5 @@ while ((line = Console.ReadLine()) != "END")
 }
 Console.WriteLine("Here's your input backwards");
 for (int i = inputs.Count - 1; i >= 0; i--) {
-    Console.WriteLine(ReverseString(inputs[i]));
-}
-
-static string ReverseString(string input)
-{
-    char[] characterArray = input.ToCharArray();
-    string reversedString = String.Empty;
-    for (int i = characterArray.Length - 1; i >= 0; i--)
-    {
-        reversedString += characterArray[i];
-    }
-
-    return reversedString;
+    Console.WriteLine(inputs[i]);
 }
