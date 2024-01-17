@@ -12,3 +12,4 @@
 /Users/Keys/Projects/CS-3243/ReverseString/obj/Debug/net8.0/ReverseString.pdb
 /Users/Keys/Projects/CS-3243/ReverseString/obj/Debug/net8.0/ReverseString.genruntimeconfig.cache
 /Users/Keys/Projects/CS-3243/ReverseString/obj/Debug/net8.0/ref/ReverseString.dll
+/Users/Keys/Projects/CS-3243/ReverseString/obj/Debug/net8.0/ReverseString.sourcelink.json
