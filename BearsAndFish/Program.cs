@@ -30,14 +30,14 @@ char[] riverConfig = [ 'b', 'f', 'b', '_', 'f', '_', '_', '_', 'f', '_', 'f', 'f
 Animal?[] river = CreateRiverFromArray(riverConfig);
 while (!AreAllElementsOfSameType(river))
 {
-    PrintArray(river, out _);
+    PrintArray(river);
     MoveAllAnimals(river);
 }
 
 
-void PrintArray(Animal?[] animals, out string arrayString)
+void PrintArray(Animal?[] animals)
 {
-    arrayString = String.Empty;
+    string arrayString = String.Empty;
     foreach (var animal in animals)
     {
         if (animal != null)
@@ -92,14 +92,14 @@ void MoveAllAnimals(Animal?[] ecosystem)
                 {
                     Copulate<Bear>(array);
                     // Console.WriteLine($"Two bears copulated");
-                    PrintArray(array, out _);
+                    PrintArray(array);
                     return movement;
                 }
                 if (animal?.GetType() == typeof(Fish))
                 {
                     Copulate<Fish>(array);
                     // Console.WriteLine($"Two fish copulated");
-                    PrintArray(array, out _);
+                    PrintArray(array);
                     return movement;
                 }
             }
