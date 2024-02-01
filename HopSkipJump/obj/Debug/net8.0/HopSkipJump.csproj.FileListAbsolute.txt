@@ -1,0 +1,15 @@
+/Users/Keys/Projects/CS-3243/HopSkipJump/bin/Debug/net8.0/HopSkipJump
+/Users/Keys/Projects/CS-3243/HopSkipJump/bin/Debug/net8.0/HopSkipJump.deps.json
+/Users/Keys/Projects/CS-3243/HopSkipJump/bin/Debug/net8.0/HopSkipJump.runtimeconfig.json
+/Users/Keys/Projects/CS-3243/HopSkipJump/bin/Debug/net8.0/HopSkipJump.dll
+/Users/Keys/Projects/CS-3243/HopSkipJump/bin/Debug/net8.0/HopSkipJump.pdb
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/HopSkipJump.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/HopSkipJump.AssemblyInfoInputs.cache
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/HopSkipJump.AssemblyInfo.cs
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/HopSkipJump.csproj.CoreCompileInputs.cache
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/HopSkipJump.sourcelink.json
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/HopSkipJump.dll
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/refint/HopSkipJump.dll
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/HopSkipJump.pdb
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/HopSkipJump.genruntimeconfig.cache
+/Users/Keys/Projects/CS-3243/HopSkipJump/obj/Debug/net8.0/ref/HopSkipJump.dll
