@@ -2,44 +2,48 @@
 
 public class App
 {
-    // private static readonly int ArraySize = 5;
+    private static readonly int ArraySize = 100;
 
     public static void Main()
     {
-        // int[] game = new int[ArraySize];
-        // Random random = new Random();
-        // for (int i = 0; i < ArraySize; i++)
-        // {
-        //     game[i] = random.Next() % 150;
-        // }
+         int[] game = new int[ArraySize];
+         Random random = new Random();
+         for (int i = 0; i < ArraySize; i++)
+         {
+             game[i] = random.Next() % 14;
+         }
 
-        //print array
-        // foreach (var item in game)
-        // {
-        //     Console.Write(item + " ");
-        // }
-        int[] game = new int[] {0, 23, 25, 63, 23, 24, 64, 51, 52, 59, 58, 38, 39, 41, 24, 25, 43, 50, 52, 54, 53, 55};
-
-        Console.WriteLine();
-        Console.WriteLine(Hsj(game, game[0]));
+         //print array
+         foreach (var item in game)
+         {
+                    Console.Write(item + " ");
+         }
+         // int[] game = new int[] {0, 23, 25, 63, 23, 24, 64, 51, 52, 59, 58, 38, 39, 41, 24, 25, 43, 50, 52, 54, 53, 55};
+        
+         Console.WriteLine();
+         int[] memo = new int[game.Length];
+         List<int> path = new List<int>();
+         Console.WriteLine($"Best path through the array costs: {Hsj(game, memo)}");
     }
 
-    private static int Hsj(int[] array, int count = 0, int index = 0)
+    private static int Hsj(int[] array, int[] memo, int cost = 0, int index = 0)
     {
-        Console.WriteLine($"Current index: {index}, Value: {array[index]}"); // Debug statement
-
         if ((index + 1) == array.Length)
         {
-            return count;
+            return cost + array[index];
         }
-
+        if (memo[index] != 0)
+        {
+            return cost + memo[index];
+        }
         if ((index + 1) + 1 == array.Length)
         {
-            return count + array[index + 1];
+            return cost + array[index] + array[index + 1];
         }
-
-        int costFromA = Hsj(array, count + array[index + 1], index + 1);
-        int costFromB = Hsj(array, count + array[index + 2], index + 2);
-        return costFromA > costFromB ? costFromB : costFromA;
+        int costFromA = Hsj(array, memo, cost, index + 1);
+        memo[index + 1] = costFromA;
+        int costFromB = Hsj(array, memo, cost, index + 2);
+        memo[index + 2] = costFromB;
+        return costFromA > costFromB ? array[index] + costFromB : array[index] + costFromA;
     }
 }
