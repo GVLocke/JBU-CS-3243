@@ -18,7 +18,6 @@ public class App
          {
                     Console.Write(item + " ");
          }
-         // int[] game = new int[] {0, 23, 25, 63, 23, 24, 64, 51, 52, 59, 58, 38, 39, 41, 24, 25, 43, 50, 52, 54, 53, 55};
         
          Console.WriteLine();
          int[] memo = new int[game.Length];
