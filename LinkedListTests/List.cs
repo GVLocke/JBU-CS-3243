@@ -1,4 +1,4 @@
-namespace LinkedListRotate;
+namespace LinkedListTests;
 
 public class List
 {

@@ -1,4 +1,4 @@
-namespace LinkedListRotate;
+namespace LinkedListTests;
 
 // Using the starter code from the Deitel List (linked-list), implement a new Rotate() method of the List class
 // which has semantics equal to InsertAtBack(RemoveFromFront()), yet without creating any new node. Write

@@ -1,4 +1,4 @@
-namespace LinkedListRotate;
+namespace LinkedListTests;
 
 // class EmptyListException declaration
 public class EmptyListException : Exception

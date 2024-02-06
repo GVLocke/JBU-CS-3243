@@ -2,7 +2,7 @@
 // ListNode, List and EmptyListException class declarations.
 using System;
 
-namespace LinkedListRotate;
+namespace LinkedListTests;
 
 // class to represent one node in a list
 public class ListNode

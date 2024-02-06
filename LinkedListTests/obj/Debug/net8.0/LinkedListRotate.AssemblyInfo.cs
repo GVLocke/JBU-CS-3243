@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedListRotate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40c7e53213352e7763c4cb02cf51a9066f0593ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedListRotate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedListRotate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

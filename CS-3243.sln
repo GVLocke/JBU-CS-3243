@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackSort", "StackSort\Stac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HopSkipJump", "HopSkipJump\HopSkipJump.csproj", "{FAA7EA9C-3B7A-4DB0-87FF-202C649B337E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListRotate", "LinkedListRotate\LinkedListRotate.csproj", "{0C8A2FD9-68DE-460E-B187-E0E3DC5A2FE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListTests", "LinkedListTests\LinkedListTests.csproj", "{0C8A2FD9-68DE-460E-B187-E0E3DC5A2FE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
