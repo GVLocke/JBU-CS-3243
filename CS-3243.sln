@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackSort", "StackSort\Stac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HopSkipJump", "HopSkipJump\HopSkipJump.csproj", "{FAA7EA9C-3B7A-4DB0-87FF-202C649B337E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListRotate", "LinkedListRotate\LinkedListRotate.csproj", "{0C8A2FD9-68DE-460E-B187-E0E3DC5A2FE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{FAA7EA9C-3B7A-4DB0-87FF-202C649B337E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA7EA9C-3B7A-4DB0-87FF-202C649B337E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA7EA9C-3B7A-4DB0-87FF-202C649B337E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8A2FD9-68DE-460E-B187-E0E3DC5A2FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8A2FD9-68DE-460E-B187-E0E3DC5A2FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8A2FD9-68DE-460E-B187-E0E3DC5A2FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8A2FD9-68DE-460E-B187-E0E3DC5A2FE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

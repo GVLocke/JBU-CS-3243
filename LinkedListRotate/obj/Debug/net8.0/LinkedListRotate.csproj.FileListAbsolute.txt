@@ -1,0 +1,15 @@
+/Users/Keys/Projects/CS-3243/LinkedListRotate/bin/Debug/net8.0/LinkedListRotate
+/Users/Keys/Projects/CS-3243/LinkedListRotate/bin/Debug/net8.0/LinkedListRotate.deps.json
+/Users/Keys/Projects/CS-3243/LinkedListRotate/bin/Debug/net8.0/LinkedListRotate.runtimeconfig.json
+/Users/Keys/Projects/CS-3243/LinkedListRotate/bin/Debug/net8.0/LinkedListRotate.dll
+/Users/Keys/Projects/CS-3243/LinkedListRotate/bin/Debug/net8.0/LinkedListRotate.pdb
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/LinkedListRotate.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/LinkedListRotate.AssemblyInfoInputs.cache
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/LinkedListRotate.AssemblyInfo.cs
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/LinkedListRotate.csproj.CoreCompileInputs.cache
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/LinkedListRotate.sourcelink.json
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/LinkedListRotate.dll
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/refint/LinkedListRotate.dll
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/LinkedListRotate.pdb
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/LinkedListRotate.genruntimeconfig.cache
+/Users/Keys/Projects/CS-3243/LinkedListRotate/obj/Debug/net8.0/ref/LinkedListRotate.dll
