@@ -13,6 +13,13 @@ public static class LinkedListSum
             list1.InsertAtFront(10 * i);
             list2.InsertAtFront(5 * i);
         }
+        var sumList = SumList(list1, list2);
+        sumList.Display();
+    }
+
+    private static List SumList(List list1, List list2)
+    {
+        if (list1.GetSize() != list2.GetSize()) throw new InvalidOperationException("Lists must be the same size");
         List sumList = new List();
         IEnumerator enumerator1 = list1.GetEnumerator();
         IEnumerator enumerator2 = list2.GetEnumerator();
@@ -22,6 +29,7 @@ public static class LinkedListSum
             int value2 = (int)enumerator2.Current;
             sumList.InsertAtBack(value1 + value2);
         }
-        sumList.Display();
+
+        return sumList;
     }
 }
