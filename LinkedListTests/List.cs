@@ -1,16 +1,18 @@
+using System.Collections;
+
 namespace LinkedListTests;
 
-public class List
+public class List : IEnumerable
 {
-   private ListNode _firstNode;
-   private ListNode _lastNode;
+   public ListNode FirstNode { get; private set; }
+   public ListNode LastNode { get; private set; }
    private readonly string _name; // string like "list" to display
 
    // construct empty List with specified name
    public List(string listName)
    {
       _name = listName;
-      _firstNode = _lastNode = null;
+      FirstNode = LastNode = null;
    }
 
    // construct empty List with "list" as its name 
@@ -23,11 +25,11 @@ public class List
    {
       if (IsEmpty())
       {
-         _firstNode = _lastNode = new ListNode(insertItem);
+         FirstNode = LastNode = new ListNode(insertItem);
       }
       else
       {
-         _firstNode = new ListNode(insertItem, _firstNode);
+         FirstNode = new ListNode(insertItem, FirstNode);
       }
    }
 
@@ -38,11 +40,11 @@ public class List
    {
       if (IsEmpty())
       {
-         _firstNode = _lastNode = new ListNode(insertItem);
+         FirstNode = LastNode = new ListNode(insertItem);
       }
       else
       {
-         _lastNode = _lastNode.Next = new ListNode(insertItem);
+         LastNode = LastNode.Next = new ListNode(insertItem);
       }
    }
 
@@ -54,16 +56,16 @@ public class List
          throw new EmptyListException(_name);
       }
 
-      object removeItem = _firstNode.Data; // retrieve data
+      object removeItem = FirstNode.Data; // retrieve data
 
       // reset firstNode and lastNode references
-      if (_firstNode == _lastNode)
+      if (FirstNode == LastNode)
       {
-         _firstNode = _lastNode = null;
+         FirstNode = LastNode = null;
       }
       else
       {
-         _firstNode = _firstNode.Next;
+         FirstNode = FirstNode.Next;
       }
 
       return removeItem; // return removed data
@@ -77,25 +79,25 @@ public class List
          throw new EmptyListException(_name);
       }
 
-      object removeItem = _lastNode.Data; // retrieve data
+      object removeItem = LastNode.Data; // retrieve data
 
       // reset firstNode and lastNode references
-      if (_firstNode == _lastNode)
+      if (FirstNode == LastNode)
       {
-         _firstNode = _lastNode = null;
+         FirstNode = LastNode = null;
       }
       else
       {
-         ListNode? current = _firstNode;
+         ListNode? current = FirstNode;
 
          // loop while current.Next is not lastNode
-         while (current.Next != _lastNode)
+         while (current.Next != LastNode)
          {
             current = current.Next; // move to next node
          }
 
          // current is new lastNode
-         _lastNode = current;
+         LastNode = current;
          current.Next = null;
       }
 
@@ -105,7 +107,7 @@ public class List
    // return true if List is empty
    public bool IsEmpty()
    {
-      return _firstNode == null;
+      return FirstNode == null;
    }
 
    // output List contents
@@ -119,7 +121,7 @@ public class List
       {
          Console.Write($"The {_name} is: \n");
 
-         ListNode? current = _firstNode;
+         ListNode? current = FirstNode;
 
          // output current node data while not at end of list
          while (current != null)
@@ -139,19 +141,46 @@ public class List
          throw new EmptyListException(_name);
       }
 
-      if (_firstNode == _lastNode)
+      if (FirstNode == LastNode)
       {
          return;
       }
-      ListNode? current = _firstNode;
-      while (current.Next != _lastNode)
+      ListNode? current = FirstNode;
+      while (current.Next != LastNode)
       {
          current = current.Next;
       }
 
       current.Next = null;
-      _lastNode.Next = _firstNode;
-      _firstNode = _lastNode;
-      _lastNode = current;
+      LastNode.Next = FirstNode;
+      FirstNode = LastNode;
+      LastNode = current;
+   }
+
+   public int GetSize()
+   {
+      if (IsEmpty())
+      {
+         return 0;
+      }
+      int size = 0;
+      ListNode? current = FirstNode;
+      while (current != null)
+      {
+         size++;
+         current = current.Next;
+      }
+
+      return size;
+   }
+
+   IEnumerator IEnumerable.GetEnumerator()
+   {
+      return (IEnumerator)GetEnumerator();
+   }
+
+   public ListEnum GetEnumerator()
+   {
+      return new ListEnum(this);
    }
 }

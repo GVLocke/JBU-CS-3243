@@ -24,6 +24,11 @@ public class ListNode
       Data = dataValue;
       Next = nextNode;
    }
+
+   public override string ToString()
+   {
+      return this.Data.ToString();
+   }
 }
 
 

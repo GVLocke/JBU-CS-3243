@@ -5,9 +5,17 @@ namespace LinkedListTests;
 // a simple main function that fills the list with a couple items and tests your new code, with the appropriate
 // printouts to show that it is working correctly. (based on Goodrich 3.12)
 
-public class RotateTest
+public static class HomeworkTests
 {
     public static void Main()
+    {
+        Console.WriteLine("Testing Rotate Method....");
+        TestRotateMethod();
+        Console.WriteLine("Testing Sum Method");
+        LinkedListSum.ListSum();
+    }
+
+    private static void TestRotateMethod()
     {
         List list = new List();
         list.InsertAtFront(new Book("Mere Christianity", "CS Lewis"));
