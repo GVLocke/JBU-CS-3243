@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedListQueue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc2b4cd69dd60a5f5cc6f5953f64b6740e5f9f55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedListQueue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedListQueue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
