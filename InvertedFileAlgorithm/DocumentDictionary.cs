@@ -2,35 +2,39 @@ namespace InvertedFileAlgorithm;
 
 public class DocumentDictionary
 {
-    private Dictionary<string, LinkedList<int>> _dictionary = new();
+    private readonly Dictionary<string, LinkedList<int>> _dictionary = new();
 
     public DocumentDictionary(string path)
     {
         var reader = new StreamReader(path);
-        string?[] wordsArray;
+        var wordCount = 0;
         using (reader)
         {
-            if (reader.Peek() >= 0)
+            while (reader.ReadLine() is { } line)
             {
-                var line = reader.ReadLine();
-                wordsArray = line?.Split(" ") ?? Array.Empty<string>();
-            }
-            else
-            {
-                throw new Exception("File is empty!");
+                var wordsArray = line.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                for (var i = 0; i < wordsArray.Length; i++)
+                {
+                    if (wordsArray[i].Length >= 3)
+                    {
+                        Add(wordsArray[i], i + wordCount);
+                    }
+                }
+                wordCount += wordsArray.Length;
             }
         }
-        for (var i = 0; i < wordsArray.Length; i++)
+    }
+
+    private void Add(string word, int index)
+    {
+        if (_dictionary.TryGetValue(word, out var value))
         {
-            if (_dictionary.TryGetValue(wordsArray[i], out LinkedList<int>? value))
-            {
-                value.AddLast(i);
-            }
-            else
-            {
-                _dictionary[wordsArray[i]] = new LinkedList<int>();
-                _dictionary[wordsArray[i]].AddLast(i);
-            }
+            value.AddLast(index);
+        }
+        else
+        {
+            _dictionary[word] = [];
+            _dictionary[word].AddLast(index);
         }
     }
 
