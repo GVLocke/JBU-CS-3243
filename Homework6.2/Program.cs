@@ -9,10 +9,10 @@ public static class Program
     {
         Console.OutputEncoding = Encoding.UTF8;
         var tree2 = new BinarySearchTree<int>();
-// make a simple modification to the Jamro BinarySearchTree.Add()
-// function that also returns a reference to the BinaryTreeNode
-// (of course you could also use the value itself, and search for
-// it instead of retaining a reference... that's a slower approach)
+        // make a simple modification to the Jamro BinarySearchTree.Add()
+        // function that also returns a reference to the BinaryTreeNode
+        // (of course you could also use the value itself, and search for
+        // it instead of retaining a reference... that's a slower approach)
         var n90 = tree2.AddAndReturnReference(90);
         var n100 = tree2.AddAndReturnReference(100);
         var n110 = tree2.AddAndReturnReference(110);
