@@ -1,4 +1,4 @@
-namespace Homework61
+namespace Homework6._2
 {
   public class BinarySearchTree<T> : BinaryTree<T>
       where T : IComparable
@@ -44,6 +44,28 @@ namespace Homework61
       }
 
       Count++;
+    }
+    
+    public BinaryTreeNode<T> AddAndReturnReference(T data)
+    {
+      var parent = GetParentForNewNode(data);
+      var node = new BinaryTreeNode<T>() { Data = data, Parent = parent };
+
+      if (parent == null)
+      {
+        Root = node;
+      }
+      else if (data.CompareTo(parent.Data) < 0)
+      {
+        parent.Left = node;
+      }
+      else
+      {
+        parent.Right = node;
+      }
+
+      Count++;
+      return node;
     }
 
     private BinaryTreeNode<T> GetParentForNewNode(T data)

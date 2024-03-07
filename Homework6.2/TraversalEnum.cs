@@ -1,4 +1,4 @@
-namespace Homework61
+namespace Homework6._2
 {
   public enum TraversalEnum
   {
