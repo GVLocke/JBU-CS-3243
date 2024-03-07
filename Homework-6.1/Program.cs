@@ -18,9 +18,10 @@ namespace Homework61
       tree1.Add(80);
       tree1.Add(120);
       tree1.Add(105);
-      tree1.Add(104);
+      tree1.Add(106);
       tree1.Add(95);
       tree1.Add(93);
+      tree1.Add(94);
       VisualizeTree(tree1, "Tree1");
       tree2.Add(101);
       tree2.Add(91);
@@ -29,19 +30,21 @@ namespace Homework61
       tree2.Add(121);
       tree2.Add(106);
       tree2.Add(107);
+      tree2.Add(119);
       tree2.Add(96);
       tree2.Add(97);
       VisualizeTree(tree2, "Tree2");
       System.Console.WriteLine(IsIsomorphic(tree1.Root, tree2.Root));
     }
 
-    private static bool IsIsomorphic(BinaryTreeNode<int> a, BinaryTreeNode<int> b)
-    {
-      if (a == null && b == null) return true;
-      if (a == null || b == null) return false;
-      if (a.Left == null && b.Left == null) return true;
-      return (IsIsomorphic(a.Left, b.Left) && IsIsomorphic(a.Right, b.Right) || IsIsomorphic(a.Left, b.Right) && IsIsomorphic(a.Right, b.Left));
-    }
+   private static bool IsIsomorphic(BinaryTreeNode<int> a, BinaryTreeNode<int> b)
+{
+    if (a == null && b == null) return true;
+    if (a == null || b == null) return false;
+
+    // Check if the data of both nodes is equal and the left and right children are isomorphic
+    return ((IsIsomorphic(a.Left, b.Left) && IsIsomorphic(a.Right, b.Right)) || (IsIsomorphic(a.Left, b.Right) && IsIsomorphic(a.Right, b.Left)));
+}
 
 
 

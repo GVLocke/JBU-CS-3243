@@ -34,7 +34,7 @@ public static class Program
 
     private static BinaryTreeNode<int> FindLCA(BinaryTreeNode<int> p, BinaryTreeNode<int> q)
     {
-        var ancestors = new HashSet<BinaryTreeNode<int>>();
+        var ancestors = new HashSet<BinaryTreeNode<int>>(p.GetHeight());
         while (p != null)
         {
             ancestors.Add(p);
