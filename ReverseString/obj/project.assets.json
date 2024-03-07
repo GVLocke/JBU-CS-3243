@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Keys/Projects/CS-3243/ReverseString/ReverseString.csproj",
+      "projectUniqueName": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/ReverseString/ReverseString.csproj",
       "projectName": "ReverseString",
-      "projectPath": "/Users/Keys/Projects/CS-3243/ReverseString/ReverseString.csproj",
+      "projectPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/ReverseString/ReverseString.csproj",
       "packagesPath": "/Users/Keys/.nuget/packages/",
-      "outputPath": "/Users/Keys/Projects/CS-3243/ReverseString/obj/",
+      "outputPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/ReverseString/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Keys/.nuget/NuGet/NuGet.Config"

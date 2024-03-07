@@ -1,0 +1,15 @@
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/bin/Debug/net8.0/Homework-6.1
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/bin/Debug/net8.0/Homework-6.1.deps.json
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/bin/Debug/net8.0/Homework-6.1.runtimeconfig.json
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/bin/Debug/net8.0/Homework-6.1.dll
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/bin/Debug/net8.0/Homework-6.1.pdb
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/Homework-6.1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/Homework-6.1.AssemblyInfoInputs.cache
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/Homework-6.1.AssemblyInfo.cs
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/Homework-6.1.csproj.CoreCompileInputs.cache
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/Homework-6.1.sourcelink.json
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/Homework-6.1.dll
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/refint/Homework-6.1.dll
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/Homework-6.1.pdb
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/Homework-6.1.genruntimeconfig.cache
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/Homework-6.1/obj/Debug/net8.0/ref/Homework-6.1.dll

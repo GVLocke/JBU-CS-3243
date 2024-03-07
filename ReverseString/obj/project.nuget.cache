@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zEUKhrpaX5zoFPord8iO2VH8AkYc2hPYoyVHffmt8vn9zj1ln9mBwnExjiXsvAvq9na6GZUtc9BiJRoCsYDBOw==",
+  "dgSpecHash": "FSNGXDQeh7z+vCzPxp6nc+kDQAEWRzvdWQeIlMcBZ7rXR2eRz+YBF91S/KR8+tOcfnpUBMx9RI3zxVmL/wgo2Q==",
   "success": true,
-  "projectFilePath": "/Users/Keys/Projects/CS-3243/ReverseString/ReverseString.csproj",
+  "projectFilePath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/ReverseString/ReverseString.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

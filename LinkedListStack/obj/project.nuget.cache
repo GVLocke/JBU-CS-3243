@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c8Vix+f+y0Ss8u9XdJZjK4iXKIKjAF8nPl2dCdght//6Gtd913MeGtqiwKCV2Gl2yj3LYI461WpJyuD8zqdUow==",
+  "dgSpecHash": "aem9RK7zQyAaASMCsrV246BAqCI1QTnFdH8vNJPu0m9jBQO2ZIrJkPBrxRSOoYDrACLjAPIm7W1tID1UYLRu2w==",
   "success": true,
-  "projectFilePath": "/Users/Keys/Projects/CS-3243/LinkedListStack/LinkedListStack.csproj",
+  "projectFilePath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListStack/LinkedListStack.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

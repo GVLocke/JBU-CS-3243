@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Keys/Projects/CS-3243/BearsAndFish/BearsAndFish.csproj",
+      "projectUniqueName": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/BearsAndFish/BearsAndFish.csproj",
       "projectName": "BearsAndFish",
-      "projectPath": "/Users/Keys/Projects/CS-3243/BearsAndFish/BearsAndFish.csproj",
+      "projectPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/BearsAndFish/BearsAndFish.csproj",
       "packagesPath": "/Users/Keys/.nuget/packages/",
-      "outputPath": "/Users/Keys/Projects/CS-3243/BearsAndFish/obj/",
+      "outputPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/BearsAndFish/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Keys/.nuget/NuGet/NuGet.Config"

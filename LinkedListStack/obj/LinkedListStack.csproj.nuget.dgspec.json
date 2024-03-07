@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Keys/Projects/CS-3243/LinkedListStack/LinkedListStack.csproj": {}
+    "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListStack/LinkedListStack.csproj": {}
   },
   "projects": {
-    "/Users/Keys/Projects/CS-3243/LinkedListStack/LinkedListStack.csproj": {
+    "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListStack/LinkedListStack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Keys/Projects/CS-3243/LinkedListStack/LinkedListStack.csproj",
+        "projectUniqueName": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListStack/LinkedListStack.csproj",
         "projectName": "LinkedListStack",
-        "projectPath": "/Users/Keys/Projects/CS-3243/LinkedListStack/LinkedListStack.csproj",
+        "projectPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListStack/LinkedListStack.csproj",
         "packagesPath": "/Users/Keys/.nuget/packages/",
-        "outputPath": "/Users/Keys/Projects/CS-3243/LinkedListStack/obj/",
+        "outputPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListStack/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Keys/.nuget/NuGet/NuGet.Config"

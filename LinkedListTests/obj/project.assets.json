@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Keys/Projects/CS-3243/LinkedListTests/LinkedListTests.csproj",
+      "projectUniqueName": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListTests/LinkedListTests.csproj",
       "projectName": "LinkedListTests",
-      "projectPath": "/Users/Keys/Projects/CS-3243/LinkedListTests/LinkedListTests.csproj",
+      "projectPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListTests/LinkedListTests.csproj",
       "packagesPath": "/Users/Keys/.nuget/packages/",
-      "outputPath": "/Users/Keys/Projects/CS-3243/LinkedListTests/obj/",
+      "outputPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Keys/.nuget/NuGet/NuGet.Config"

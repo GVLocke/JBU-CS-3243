@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{BCD8640F-AECA-4B0B-9357-227C9D68C51C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BearsAndFish", "BearsAndFish\BearsAndFish.csproj", "{994947CF-41A6-4BA3-840F-2D2D194D2FBB}"
@@ -17,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListQueue", "LinkedListQueue\LinkedListQueue.csproj", "{4464D7CD-33D7-4139-95B4-6DA216E36CCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvertedFileAlgorithm", "InvertedFileAlgorithm\InvertedFileAlgorithm.csproj", "{1085198B-52B2-4266-B345-907E2BDB907F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-6.1", "Homework-6.1\Homework-6.1.csproj", "{3D8950AC-AEB4-4C5C-8FE1-AA3852EBFACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +63,10 @@ Global
 		{1085198B-52B2-4266-B345-907E2BDB907F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1085198B-52B2-4266-B345-907E2BDB907F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1085198B-52B2-4266-B345-907E2BDB907F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8950AC-AEB4-4C5C-8FE1-AA3852EBFACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8950AC-AEB4-4C5C-8FE1-AA3852EBFACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8950AC-AEB4-4C5C-8FE1-AA3852EBFACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8950AC-AEB4-4C5C-8FE1-AA3852EBFACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

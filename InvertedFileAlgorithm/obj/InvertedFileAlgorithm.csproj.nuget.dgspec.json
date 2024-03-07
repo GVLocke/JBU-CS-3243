@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Keys/Projects/CS-3243/InvertedFileAlgorithm/InvertedFileAlgorithm.csproj": {}
+    "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/InvertedFileAlgorithm/InvertedFileAlgorithm.csproj": {}
   },
   "projects": {
-    "/Users/Keys/Projects/CS-3243/InvertedFileAlgorithm/InvertedFileAlgorithm.csproj": {
+    "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/InvertedFileAlgorithm/InvertedFileAlgorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Keys/Projects/CS-3243/InvertedFileAlgorithm/InvertedFileAlgorithm.csproj",
+        "projectUniqueName": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/InvertedFileAlgorithm/InvertedFileAlgorithm.csproj",
         "projectName": "InvertedFileAlgorithm",
-        "projectPath": "/Users/Keys/Projects/CS-3243/InvertedFileAlgorithm/InvertedFileAlgorithm.csproj",
+        "projectPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/InvertedFileAlgorithm/InvertedFileAlgorithm.csproj",
         "packagesPath": "/Users/Keys/.nuget/packages/",
-        "outputPath": "/Users/Keys/Projects/CS-3243/InvertedFileAlgorithm/obj/",
+        "outputPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/InvertedFileAlgorithm/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Keys/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Keys/Projects/CS-3243/LinkedListQueue/LinkedListQueue.csproj": {}
+    "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListQueue/LinkedListQueue.csproj": {}
   },
   "projects": {
-    "/Users/Keys/Projects/CS-3243/LinkedListQueue/LinkedListQueue.csproj": {
+    "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListQueue/LinkedListQueue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Keys/Projects/CS-3243/LinkedListQueue/LinkedListQueue.csproj",
+        "projectUniqueName": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListQueue/LinkedListQueue.csproj",
         "projectName": "LinkedListQueue",
-        "projectPath": "/Users/Keys/Projects/CS-3243/LinkedListQueue/LinkedListQueue.csproj",
+        "projectPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListQueue/LinkedListQueue.csproj",
         "packagesPath": "/Users/Keys/.nuget/packages/",
-        "outputPath": "/Users/Keys/Projects/CS-3243/LinkedListQueue/obj/",
+        "outputPath": "/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/LinkedListQueue/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Keys/.nuget/NuGet/NuGet.Config"
