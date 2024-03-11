@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxTree", "MinMaxTree\Mi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree", "AVLTree\AVLTree.csproj", "{A09431FF-5B7E-4A91-901F-BB61391FBBB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework72", "Homework72\Homework72.csproj", "{EDD73250-84A8-46DF-981F-2235544E2948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{A09431FF-5B7E-4A91-901F-BB61391FBBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A09431FF-5B7E-4A91-901F-BB61391FBBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A09431FF-5B7E-4A91-901F-BB61391FBBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD73250-84A8-46DF-981F-2235544E2948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD73250-84A8-46DF-981F-2235544E2948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD73250-84A8-46DF-981F-2235544E2948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD73250-84A8-46DF-981F-2235544E2948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
