@@ -1,0 +1,15 @@
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/bin/Debug/net8.0/AVLTree
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/bin/Debug/net8.0/AVLTree.deps.json
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/bin/Debug/net8.0/AVLTree.runtimeconfig.json
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/bin/Debug/net8.0/AVLTree.dll
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/bin/Debug/net8.0/AVLTree.pdb
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/AVLTree.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/AVLTree.AssemblyInfoInputs.cache
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/AVLTree.AssemblyInfo.cs
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/AVLTree.csproj.CoreCompileInputs.cache
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/AVLTree.sourcelink.json
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/AVLTree.dll
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/refint/AVLTree.dll
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/AVLTree.pdb
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/AVLTree.genruntimeconfig.cache
+/Users/Keys/Projects/Data-Structures-And-Algorithms/CS-3243/AVLTree/obj/Debug/net8.0/ref/AVLTree.dll
